@@ -1,0 +1,17 @@
+# Use the specified Python base image
+#FROM python:3.12-rc-alpine
+
+# Set the working directory inside the container
+#WORKDIR /app
+
+# Copy the entire content of the current directory to the container's working directory
+#COPY . .
+
+# Set the environment variable for Flask application
+#ENV FLASK_APP=app.py
+
+# Install the Python packages listed in requirements.txt
+#RUN pip install -r requirements.txt
+
+# Specify the command to run when the container starts
+#CMD [ "flask", "run", "--host=0.0.0.0", "--port=5000", "--reload"]
