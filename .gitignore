@@ -1,3 +1,6 @@
 miniproj/
 __pycache__/
 notebook.ipynb
+experiment.py
+exp.py
+Logs/
