@@ -1,2 +1,7 @@
 miniproj/
 __pycache__/
+/Logs/
+**/*egg-info
+exp.py
+experiment.py
+notebook.ipynb
