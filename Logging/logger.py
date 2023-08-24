@@ -1,6 +1,8 @@
 import logging
 import os
+from datetime import datetime
 
+# date = datetime.now().date()
 CWD = os.getcwd()
 LOG_DIR = 'Logs'
 LOG_DIR_PATH = os.path.join(CWD,LOG_DIR)
@@ -12,12 +14,12 @@ def Log(filepath):
     except:
         pass
 
-    name = os.path.basename(filepath)
-    name = os.path.splitext(name)[0]
+    org_name = os.path.basename(filepath)
+    name = os.path.splitext(org_name)[0]
     filename = os.path.join(LOG_DIR_PATH,name)
 
     global logger
-    logger = logging.getLogger(name)
+    logger = logging.getLogger(org_name)
     logger.setLevel(logging.INFO)
     handler = logging.FileHandler(f'{filename}.log')
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')

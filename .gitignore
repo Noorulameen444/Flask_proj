@@ -4,3 +4,4 @@ notebook.ipynb
 experiment.py
 exp.py
 Logs/
+**/*.egg-info
