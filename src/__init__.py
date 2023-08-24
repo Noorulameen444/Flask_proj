@@ -1,4 +1,4 @@
 import os
 
-from Logging import logger
-from App import app
+from src.Logging import logger
+from src.App import app
