@@ -1,3 +1,9 @@
-__pycache__/
+*__pycache__/
 miniproj/
 reference.txt
+Logs/
+README.md
+Mini_Flask_Project.egg-info
+.gitignore
+*exp.py
+*experiment.py
