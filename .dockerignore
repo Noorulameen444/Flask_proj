@@ -5,5 +5,5 @@ Logs/
 README.md
 Mini_Flask_Project.egg-info
 .gitignore
-*exp.py
-*experiment.py
+exp.py
+experiment.py
